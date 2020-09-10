@@ -859,7 +859,20 @@ section {
   color: #fff;
   font-weight: 600;
 }
-
+#portfolio .portfolio-item .portfolio-info .distance {
+  font-size: 18px;
+  color: #fff;
+  font-weight: 600;
+  /* text-decoration: underline white; */
+}
+#portfolio .portfolio-item .portfolio-info .distance:hover {
+  /* font-size: 20px; */
+  color: blue;
+  font-weight: 600;
+  text-decoration: underline blue;
+  text-decoration-thickness: 2px;
+  
+}
 #portfolio .portfolio-item .portfolio-info p {
   color: #fff;
   font-size: 12px;
@@ -1197,3 +1210,6 @@ section {
   color: #ccc;
 }
 
+#footer .footer-top .section-header .section-title{
+  color: #ccc;
+}
