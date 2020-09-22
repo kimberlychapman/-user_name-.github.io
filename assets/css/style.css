@@ -1172,7 +1172,28 @@ section {
 #contact .php-email-form button[type="submit"]:hover {
   background: #51d8ad;
 }
-
+.stay{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left:10px;
+  /* padding:3px; */
+}
+#gmail{
+  padding-right: 10px;
+}
+#linkedin{
+  padding-left:10px;
+}
+#mail:hover{
+  -webkit-transform:scale(1.3);
+  transform:scale(1.3);
+}
+#linked:hover{
+  -webkit-transform:scale(1.3);
+  transform:scale(1.3);
+}
 @-webkit-keyframes animate-loading {
   0% {
     transform: rotate(0deg);
@@ -1190,11 +1211,28 @@ section {
     transform: rotate(360deg);
   }
 }
-
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
 #footer {
+  background: #343b40;
+  padding: 30px 0;
+  color: #fff;
+  font-size: 14px;
+}
+
+#footer .copyright {
+  text-align: center;
+}
+
+#footer .credits {
+  padding-top: 10px;
+  text-align: center;
+  font-size: 13px;
+  background: #343b40;
+  /* color: #ccc; */
+}
+/* #footer {
   background: #343b40;
   padding: 30px 0;
   color: #fff;
@@ -1214,4 +1252,4 @@ section {
 
 #footer .footer-top .section-header .section-title{
   color: #ccc;
-}
+} */
