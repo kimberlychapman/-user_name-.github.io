@@ -147,6 +147,12 @@ h1, h2, h3, h4, h5, h6 {
   transition: all 0.5s;
 }
 
+.pronouns{
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  color: #fff;
+}
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
