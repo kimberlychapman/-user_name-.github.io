@@ -178,7 +178,12 @@ html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address
         margin-top: -5px;
         margin-bottom: -15px;
     }
-    
+
+    .sectionContent h2 {
+        font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+        font-size: 1.5em;
+        margin-bottom: 2.5px;
+    }
     .subDetails {
         font-size: 0.8em;
         font-style: italic;
