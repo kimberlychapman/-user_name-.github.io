@@ -44,6 +44,9 @@ html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address
         /* color:  #4682B4 ; */
     }
     
+    .job-title{
+        text-decoration: underline black;
+    }
     .space-above{
         margin-top: 4px;
     }
