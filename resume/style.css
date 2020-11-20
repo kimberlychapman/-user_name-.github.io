@@ -251,7 +251,9 @@ html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address
         column-count:2;
         }
     }
-    
+    .skill-list{
+        margin-bottom:10px;
+    }
     @media all and (max-width: 601px) {
         #cv {
             width: 95%;
